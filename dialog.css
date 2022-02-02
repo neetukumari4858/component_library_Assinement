@@ -1,0 +1,126 @@
+:root{
+    --primery-color:gainsboro;
+    --secondary--color:blue;
+}
+#topheading{
+    position: relative;
+    top: -5rem;
+    left: 20rem;
+
+}
+body{
+    background-color: var(--primery-color);
+    display: flex;
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap:2rem;
+    justify-content: center;
+}
+#container1{
+    background-color: white;
+    height: 8rem;
+    width: 12rem;
+    border-radius: 0.5rem;
+    border: 1px solid white;
+    color: var(--primery-color);
+
+}
+h4{
+    margin-left: 1rem;
+    color: var(--secondary--color);
+    
+}
+.btn1{
+    margin-left: 1rem;
+    color:var(--secondary--color);
+    border: none;
+    border-radius: 0.5rem;
+    width: 4.5rem;
+    height: 2rem;
+
+
+}
+.btn:hover{
+    background-color: var(--primery-color);
+}
+/* css for second box */
+h3{
+    position: fixed;
+    top: 1rem;
+}
+
+#container2{
+    background-color: white;
+    height: 11rem;
+    width: 10rem;
+    border-radius: 0.5rem;
+    border: 1px solid white;
+    color: var(--primery-color);
+
+}
+ul{
+    display: block;
+    position: relative;
+    left: -1rem;
+    
+}
+.items{
+  
+    color: black;
+}
+.fas{
+    color: gray;
+    padding: 0.5rem;
+}
+/* css for 3 box */
+#container3{
+    background-color: white;
+    height: 15rem;
+    width: 12rem;
+    border-radius: 0.5rem;
+    border: 1px solid white;
+    color: var(--primery-color);
+}
+
+#btn2{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+#inner1{
+    height: 7rem;
+    width: 11.2rem;
+    position: relative;
+    left: 0.9rem;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+#inner1::-webkit-scrollbar{
+    width: 0.2rem;
+    background-color:gray;
+}
+#inner1::-webkit-scrollbar-thumb{
+    border-radius: 0.5rem;
+    background-color: blue;
+}
+
+.radioItem{
+    color: black;
+    position: absolute;
+    left: 2.5rem;
+
+}
+h2{
+    display: flex;
+    justify-content: center;
+    color: var(--secondary--color);
+}
+#innerbtn{
+    border: none;
+    height: 1.8rem;
+    border-radius: 0.5rem;
+    color: var(--secondary--color);
+}
+

@@ -1,0 +1,266 @@
+#outerDiv{
+    height: 1200px;
+    column-gap: 4rem;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#contsiner{
+    height: 200px;
+    width: 518px;
+    border: 1px solid black;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    box-shadow:1px 1px 3px 1px gray;
+    position: relative;
+    top: 3rem;
+    left: 2rem;
+}
+nav{
+    height: 60px;
+    width: 500px;
+    background-color: blue;
+    padding: 1px;
+}
+label.stand{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: 12px;
+    left: 60px;
+}
+label.stand1{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: 12px;
+    left:30px;
+}
+.fas1{
+    position: relative;
+    right: 50px;
+
+}
+nav ul{
+    display: flex;
+    justify-content: end;
+}
+
+.icon{
+    color: white;
+    padding: 10px;
+    margin-top:-2rem;
+    
+}
+
+/* 2 fixed */ 
+
+#contsiner2{
+    height: 200px;
+    width: 518px;
+    border: 1px solid black;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    box-shadow:1px 1px 3px 1px gray;
+    margin: 3rem ;
+}
+
+#nav2{
+    height: 60px;
+    width: 500px;
+    background-color: blue;
+    padding: 1px;
+    position:sticky;
+    top:0px;
+}
+label.stand1{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: 12px;
+    left: 60px;
+}
+label.stand2{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: 12px;
+    left:30px;
+}
+.fas2{
+    position: relative;
+    right: 50px;
+
+}
+.ul2{
+    display: flex;
+    justify-content: end;
+}
+
+.icon2{
+    color: white;
+    padding: 10px;
+    margin-top:-2rem;
+    
+}
+
+/* 3  */ 
+ #contsiner3{
+    height: 200px;
+    width: 518px;
+    border: 1px solid black;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    box-shadow:1px 1px 3px 1px gray;
+    position: relative;
+    top: -22rem;
+    left: 2rem;
+    
+    
+}
+
+#nav3{
+    height: 60px;
+    width: 500px;
+    background-color: blue;
+    padding: 1px;
+   
+}
+label.stand3{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: 12px;
+    left: 60px;
+}
+label.stand4{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: 12px;
+    left:30px;
+}
+.fas3{
+    position: relative;
+    right: 50px;
+
+}
+.ul3{
+    display: flex;
+    justify-content: end;
+}
+
+.icon3{
+    color: white;
+    padding: 10px;
+    margin-top:-2rem;
+    
+}
+
+/* 4  */ 
+#contsiner4{
+    height: 200px;
+    width: 518px;
+    border: 1px solid black;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    box-shadow:1px 1px 3px 1px gray;
+    position: relative;
+    top: -22rem;
+    left: 3rem;
+
+    
+}
+
+#nav4{
+    height: 6rem;
+    width: 500px;
+    background-color: blue;
+    padding: 1px;
+   
+}
+label.stand5{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: 12px;
+    left: 60px;
+}
+label.stand6{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: 12px;
+    left:30px;
+}
+.fas4{
+    position: relative;
+    right: 50px;
+
+}
+.ul4{
+    display: flex;
+    justify-content: end;
+}
+
+.icon4{
+    color: white;
+    padding: 10px;
+    margin-top:-2rem;
+    
+}
+
+/* 5 */ 
+#contsiner5{
+    height: 200px;
+    width: 518px;
+    border: 1px solid black;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    box-shadow:1px 1px 3px 1px gray;
+    position: absolute;
+    top: 35rem;
+    left: 3rem;
+}
+
+#nav5{
+    height: 4rem;
+    width: 10rem;
+    background-color: blue;
+    padding: 1px;
+    border-bottom-right-radius:1rem ;
+    position:sticky;
+    top:0px;
+}
+
+
+label.stand7{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: 12px;
+    left: 60px;
+}
+label.stand8{
+    color: white;
+    font-size: 25px;
+    position: relative;
+    top: 12px;
+    left:30px;
+}
+.fas5{
+    position: relative;
+    right: 50px;
+
+}
+.ul5{
+    display: flex;
+    justify-content: end;
+}
+
+.icon5{
+    color: white;
+    padding: 10px;
+    margin-top:-2rem;
+    
+} 

@@ -1,0 +1,54 @@
+#btn{
+    width: 7rem;
+    height:3rem ;
+    border: none;   
+    color: blue;
+    text-align: center;
+  
+    
+  }
+  body{
+      font-family: "Raleway";
+  }
+  #btn{
+    width: 7rem;
+    height:3rem ;
+    border: none;   
+    color: blue;
+    font-size: 17px;
+  }
+  
+  #btn:hover{
+    background-color:gainsboro; 
+  }
+  #btn:focus{
+    border-bottom:2px solid blue;
+    line-height: 4;
+  }
+  #outerDiv{
+    display: flex;
+    position: relative;
+    left: 1rem;
+    margin-top: -1rem;
+    border: 1px solid black;
+    gap: 12px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+#outerDiv1{
+    width: 60rem;
+    display: flex;
+    border: 1px solid black;
+    position: relative;
+    top: 1rem;
+    left:12rem;
+    gap: 12px;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+#outerDiv1::-webkit-scrollbar{
+  display:none;
+} 
+  

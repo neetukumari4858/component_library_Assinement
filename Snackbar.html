@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snackbar</title>
+    <style>
+        #outer{
+            height: 350px;
+            width: 500px;
+            border: 1px solid black;
+            border-radius:0.5rem;
+            box-shadow:1px 1px 5px 2px gray;
+        }
+        body{
+            display:flex;
+            justify-content:center;
+            margin-top:6rem;
+            
+        }
+        h1{
+            position:relative;
+            top:-5rem;
+            left:20rem;
+        }
+        .btn{
+            margin:2rem 1rem;
+            padding: 0.5rem;
+            background-color: #9F00FF;
+            border-radius: 0.5rem;
+            color: white;
+            font-size: 20px;
+        }
+        #snackbar1{
+            background: #556;
+            color: white;
+            padding: 10px;
+            display: inline-block;
+            position: fixed;
+            top: 190px;
+            margin-left:2rem;
+            display:none;
+        }
+        #snackbar2{
+            background: #556;
+            color: white;
+            padding: 10px;
+            display: inline-block;
+            position: fixed;
+            top: 200px;
+            margin-left:2rem;
+            display:none;
+        }
+        #snackbar3{
+            background: #556;
+            color: white;
+            padding: 10px;
+            display: inline-block;
+            position: fixed;
+            top: 350px;
+            margin-left:2rem;
+            
+            display:none;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Snackbar</h1>
+    <div id="outer">
+        
+        <button class="btn btn1" onclick="show1('Cant send photo. Retry in 5 seconds.')">BASELINE</button>
+        <button class="btn btn2" onclick="show2('Canot send photo. Retry in 5 seconds.')">LEADING</button>
+        <button class="btn btn3" onclick="show3('This item already has the label . You can add a new label.')">STACKED</button>
+        <div id="snackbar1"></div>
+        <div id="snackbar2"></div>
+        <div id="snackbar3"></div>
+    </div>
+    <script>
+        let output1=document.getElementById("snackbar1")
+        let output2=document.getElementById("snackbar2")
+        let output3=document.getElementById("snackbar3")
+        function show1(msg){
+            
+            if(output1.style.display=="none"){
+                output1.style.display="block";
+                output1.innerText=msg 
+            }
+            else{
+                output1.style.display="none"
+            }
+        }
+        function show2(msg){
+            if(output2.style.display=="none"){
+                output2.style.display="block";
+                output2.innerText=msg 
+            }
+            else{
+                output2.style.display="none"
+            }
+        }
+        function show3(msg){
+            if(output3.style.display=="none"){
+                output3.style.display="block";
+                output3.innerText=msg 
+            }
+            else{
+                output3.style.display="none"
+            }
+        }
+    </script>
+    
+</body>
+</html>

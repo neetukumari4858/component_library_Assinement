@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snackbar</title>
+    <script src="https://kit.fontawesome.com/272d1ec438.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+        }
+        .btn{
+            padding: 0.5rem;
+            background-color: #9F00FF;
+            border-radius: 0.5rem;
+            color: white;
+            font-size: 17px;
+        }
+        #bar1{
+            background:#7f8c8d;
+            color: white;
+            padding: 10px;
+            display: inline-block;
+            width: 300px;
+            border-radius: 0.5rem;
+         
+        }
+        #bar2{
+            background: #7f8c8d;
+            color: white;
+            padding: 10px;
+            display:  inline-block;
+            width: 300px;
+            border-radius: 0.5rem;
+           
+           
+        }
+        #bar3{
+            background:#7f8c8d;
+            color: white;
+            padding: 10px;
+            display:inline-block;
+            width: 300px;
+            border-radius: 0.5rem;
+           
+        }
+        .innertext{
+            color: black;
+
+        }
+        .fas{
+            color: black;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="outer">
+        <h1>Snackbar Component</h1>
+        <button class="btn btn1">BASELINE</button><br><br>
+        <div id="bar1">Can't send photo. Retry in 5 seconds.<span class="innertext">Retry </span> <i class="fas fa-times"></i>  </div><br><br>
+        <button class="btn btn2" >LEADING</button><br><br>
+        <div id="bar2">Can't send photo. Retry in 5 seconds.<span class="innertext">UNDO </span> <i class="fas fa-times"></i> </div><br><br>
+        <button class="btn btn3">STACKED</button><br><br>
+        <div id="bar3">This item already has the label "travel". You can add a new label.<span class="innertext">Add a label </span> <i class="fas fa-times"></i></div>
+</body>
+</html>

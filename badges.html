@@ -1,0 +1,101 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/272d1ec438.js" crossorigin="anonymous"></script>
+    <style>
+        #main{
+            height: 300px;
+            width: 500px;
+            border: 1px solid black;
+        }
+        .text1{
+            padding: 2px 20px;
+            font-size: 20px;
+        }
+        .badges{
+            position: relative;
+            top: -10px;
+            right: 5px;
+            font-size: 20px;
+            border-radius: 50%;
+            padding: 1px 4px;
+            background-color: #0652DD;
+            color: white;
+        }
+        .badges1{
+            position: relative;
+            top: -10px;
+            right: 15px;
+            font-size: 20px;
+            border-radius: 50%;
+            padding: 3px 4px;
+            background-color:#0652DD;
+            color: white;
+        }
+        .badges2{
+            position: relative;
+            top: -18px;
+            right: 90px;
+            font-size: 20px;
+            border-radius: 50%;
+            padding: 1px 4px;
+            background-color: #f53b57;
+            color: white;
+        }
+        #btn1{
+            background-color:#0652DD;
+            color: white;
+            font-size: 16px;
+            
+            border-radius: 0.5rem;
+            padding: 0.8rem 1rem;
+        }
+        .badges3{
+            position: relative;
+            top: -20px;
+            right: 19px;
+            font-size: 20px;
+            border-radius: 50%;
+            padding: 1px 4px;
+            background-color: #0652DD;
+            color: white;
+            
+        }
+        #btn2{
+            background-color:white;
+            color:black;
+            font-size: 16px;
+            border-radius: 0.5rem;
+            padding: 0.5rem 1rem;
+            border: 1px solid b;
+           
+        }
+        .badges4{
+            position: relative;
+            top: -13px;
+            right: 13px;
+            font-size: 20px;
+            border-radius: 50%;
+            padding: 1px 4px;
+            background-color:red;
+            color: white;
+           
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <p class="text1">Text with a badge <span class="badges"><b>4</b></span></p>
+        <p class="text1">Text with a badge <span class="badges1"><b>1</b></span><p>
+        <p class="text1">Button with a badge on the left <button id="btn1">Action</button><span class="badges2"><b>8</b></span></p>
+        <p class="text1">Button toggles badge visibilit<button id="btn2">Hide  </button> <span class="badges3"><b>7</b></span></p>
+        <p class="text1">Icon with a badge <i class="fas fa-home"></i> 
+        <span class="badges4"><b>15</b></span></p>
+    </div>
+   <script src="Badge.js"></script>
+</body>
+</html>

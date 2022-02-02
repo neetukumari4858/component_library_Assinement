@@ -1,0 +1,44 @@
+h1{
+    position:relative;
+    top: -5rem;
+    left: 20rem;
+}
+ body{
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 2rem;
+    justify-content: center;
+    margin:2rem 2rem;
+    margin-top: 6rem;
+}
+#container{
+   
+    height: 5rem;
+    width: 45;
+    border: 1px solid black;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.btn{
+    margin: 1.5rem;
+   
+    border-radius: 1rem;
+    font-size: 1rem;
+}
+ 
+.btn1{
+    background-color: blue;
+    color: white;
+    margin: 1.5rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+}
+.btn2{
+    background-color:palevioletred;
+    color: white;
+    margin: 1.5rem;
+    border-radius: 1rem;
+    font-size: 1rem;
+}
+ 

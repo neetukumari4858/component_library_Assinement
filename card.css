@@ -1,0 +1,400 @@
+/*css for first card*/
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Oooh+Baby&family=Open+Sans:wght@300&display=swap');
+body{
+    height:500px;
+    width:1500px;
+    position: relative;
+    left: 5px;
+    display:flex;
+    flex-wrap:wrap;
+    font-family:'Merriweather', serif;
+}
+#outer{
+    height:600px;
+    column-gap:15px;
+    display:flex;
+    flex-wrap:wrap;
+}
+#container1{
+    height: 10px;
+    width: 300px;
+    border: 1px solid white;
+    margin-top: 120px;
+    position: relative;
+    top:-100px;
+}
+#card1{
+   box-shadow: 2px 2px 4px 4px gray;
+}
+.content1{
+    border: 0px solid white;
+    position: relative;
+    height: 131px;
+    top: -10px;
+    left: 4px;
+    
+}
+#writer1{
+    position: relative;
+    top: -16px;
+    color: gray; 
+}
+#para1{
+    position: relative;
+    top: -29px; 
+    font-size: 12px;
+    color: gray; 
+}
+
+#btn1{
+    border: 0px solid white;
+    color: blue;
+    position: relative;
+    top: -32px; 
+    left: 8px;
+    font-size: 18px; 
+}
+#btn1:hover{
+    background-color: gainsboro;
+}
+.first{
+    position: relative;
+    top: -34px; 
+    left: 20px;
+    color: blue;
+    text-align: center;
+}
+.first1{
+    position: relative;
+    top: -35px; 
+    left: 29px;
+    color: blue;
+}
+.first2{
+   position: relative;
+   top: -35px; 
+   left: 45px;
+   color: blue;
+}
+#btnDiv{
+    position: relative;
+    top: 12px;
+
+}
+/*css for second card*/
+#container{
+    position: relative;
+    height: 10px;
+    width: 300px;
+    margin-top: 22px;
+    border: 1px solid white;
+    border-radius: 2rem;
+}
+#card2{
+    box-shadow: 2px 2px 4px 4px gray;
+}
+.content{
+    border: 0px solid white;
+    position: relative;
+    height:80px;
+    top: -65px;
+    left: 6px;
+}
+#writer{
+    position: relative;
+    top: -29px;
+    left: 9px;
+    color: black;
+}
+#topHeasing{
+    color: black;
+    position: relative;
+    top: -12px;
+    left: 9px;
+    font-size: 17px;
+}
+p{
+    position: relative;
+    top: -29px; 
+    font-size: 12px;
+    color: gray; 
+}
+#btn2{
+    border: 0px solid white;
+    color: blue;
+    position: relative;
+    top: -29px; 
+    font-size: 18px; 
+}
+#btn2:hover{
+    background-color: gainsboro;
+}
+.sec{
+    position: relative;
+    top: -32px;
+    left:12px;
+    color: blue;
+    text-align: center;
+}
+.sec1{
+
+    position: relative;
+    top: -33px; 
+    left: 23px;
+    color: blue;
+}
+.sec2{
+   position: relative;
+   top: -34px; 
+   left: 40px;
+   color: blue;
+   border-radius: rem;
+}
+
+#btnDiv{
+    position: relative;
+    top: 12px;
+
+}
+/*css for third card*/
+/* #container2{
+    height: 10px;
+    width: 300px;
+    margin-top: 80px;
+    top:-100px;
+}
+.content2{
+    border: 0px solid white;
+    position: relative;
+    height: 70px;
+    top: -10px;
+    left: px;
+}
+#card3{
+    box-shadow: 2px 2px 4px 4px gray;
+}
+#writer2{
+    position: relative;
+    top: -250px;
+    color: gray;
+}
+#heading2{
+    position: relative;
+    top: -228px;
+    color:black; }
+#para2{
+    position: relative;
+    top: -88px; 
+    font-size: 12px;
+    color: gray; 
+}
+#btn2{
+    border: 0px solid white;
+    color: blue;
+    position: relative;
+    top: -29px; 
+    font-size: 18px; 
+}
+#btn2:hover{
+    background-color: gainsboro;
+}
+.third{
+    position: relative;
+    top: -32px; 
+    left:12px;
+    color: blue;
+    text-align: center;
+}
+.third1{
+    display: flex;
+    position: relative;
+    top: -53px; 
+    left: 235px;
+    color: blue;
+}
+.third2{
+   display: flex;
+   position: relative;
+   top: -70px; 
+   left: 280px;
+   color: blue;
+   border-radius: rem;
+}
+#btnDiv2{
+    position: relative;
+    top: -60px;
+} */
+/*css for 4th card*/
+#container4{
+    height: 10px;
+    width: 300px;
+    margin-top: 22px;
+    border: 1px solid white;
+    
+} 
+.content4{
+    border: 0px solid white;
+    position: relative;
+    height: 130px;
+    top: -12px;
+    left: 10px;
+}
+#card4{
+    box-shadow: 2px 2px 4px  4px gray;
+}
+#writer4{
+    position: relative;
+    top: -16px;
+    color: gray; 
+}
+#para4{
+    position: relative;
+    top: -29px; 
+    font-size: 12px;
+    color: gray; 
+}
+#btn4{
+    border: 0px solid white;
+    color: blue;
+    position: relative;
+    top: -29px; 
+    font-size: 18px; 
+
+}
+#btn4:hover{
+    background-color: gainsboro;
+}
+#btnDiv4{
+    position: relative;
+    top: 12px;
+
+}
+/*css for 5th card*/
+#container5{
+    height: 10px;
+    width: 300px;
+    border: 1px solid white;
+    margin-top: 20px;
+}
+.content5{
+    border: 0px solid white;
+    position: relative;
+    height: 95px;
+    top: -12px;
+    left: 10px;
+}
+#card5{
+    box-shadow: 2px 2px 4px 4px gray;
+}
+#writer5{
+    position: relative;
+    top: -16px;
+    color: gray; 
+}
+#para5{
+    position: relative;
+    top: -29px; 
+    font-size: 12px;
+    color: gray; 
+}
+.fifth{
+    position: relative;
+    top: -67px; 
+    left:185px;
+    color: blue;
+    text-align: center;
+}
+.fifth1{
+
+    position: relative;
+    top: -67px; 
+    left: 200px;
+    color: blue;
+}
+.fifth2{
+   
+   position: relative;
+   top: -67px; 
+   left: 220px;
+   color: blue;
+  
+}
+
+#btnDiv5{
+    position: relative;
+    top: 12px;
+}
+/* 6 */
+#container6{
+    height: 10px;
+    position: absolute;
+    top: 330px;
+    left: 10px;
+    width: 300px;
+    border: 1px solid white;
+    margin-top: 45px;
+}
+#img1{
+    float: left;
+}
+#card6{
+box-shadow: 2px 2px 4px 4px gray;
+
+}
+.content6{
+    border: 1px solid white;
+    position: relative;
+    height: 129px;
+    top: -12px;
+    left: 1px;
+}
+#heading6{
+    font-size: 19px;
+    position: relative;
+    top: 5px;
+    margin-left:7rem;
+}
+#writer6{
+    position: relative;
+    top: -15px;
+    color: gray;
+    margin-left:7rem;
+}
+
+#btn6{
+    border: 0px solid white;
+    color: blue;
+    position: relative;
+    left: 8px;
+    top: -30px; 
+    font-size: 18px; 
+}
+#btn6:hover{
+background-color: gainsboro;
+}
+.six{
+    position: relative;
+    top: -30px; 
+    left:18px;
+    color: blue;
+    text-align: center;
+}
+.six1{
+    
+    position: relative;
+    top: -30px;  
+    left: 35px;
+    color: blue;
+}
+.six2{
+    
+    position: relative;
+    top: -30px; 
+    left: 48px;
+    color: blue;
+}
+#btnDiv6{
+    position: relative;
+    top: 12px;
+}
+

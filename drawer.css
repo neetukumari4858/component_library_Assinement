@@ -1,0 +1,89 @@
+#outerDiv{
+    height: 22rem;
+    width: 50rem;
+    border: 1px solid black;
+    
+    
+}
+#sidebar{
+    height: 22rem;
+    width: 14rem;
+    border: 1px solid black;
+    overflow: auto;
+}
+#inner1{
+    height: 3rem;
+    display: block;
+    margin-left: 1rem;
+    
+}
+h3{
+    font-size: 1.5rem;
+}
+h4{
+    font-size: 1rem;
+    margin-top: -1.5rem;
+}
+a{
+    display:flex ;
+    text-decoration: none;
+    padding: 1rem;
+    flex-wrap: wrap;
+    font-size:22px;
+    color: black;
+}
+a:hover{
+    background-color: gainsboro;
+    color: blue;
+    border-radius: 0.5rem;
+    margin: 1rem;
+}
+.fas{
+    display: flex;
+    margin-right: 1rem;
+    color: gray;
+    
+}
+.fas:hover{
+    background-color: gainsboro;
+    color: blue;
+}
+.far{
+    display: flex;
+    margin-right: 1rem;
+    color: gray;
+    
+}
+.far:hover{
+    background-color: gainsboro;
+    color: blue;
+}
+#outer2{ 
+    height: 22rem;
+    width: 36rem;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: relative;
+    top: -22.1rem;
+    left: 14rem;
+    border: 1px solid black;
+}
+#nav1{
+    z-index: 1;
+    height: 4rem;
+    width: 36rem;
+    position: relative;
+    background-color: blue;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+label{
+    position: relative;
+    top: 8px;
+}
+p{
+    margin-left: 1rem;
+}
+
+
